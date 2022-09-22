@@ -1,0 +1,682 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.functionalAreas{
+    width: 600px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E9EBF1;
+    background-size: 100%;
+    color: black;
+}
+.functionalAreas .above .headPortrait{
+    width: 80px;
+    height: 80px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    bottom: 3%;
+}
+.functionalAreas .above .headPortrait img{
+    width: 100%;
+    height: 100%;
+}
+.functionalAreas .above{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.functionalAreas .above .headtext{
+    font-size: 1.2em;
+    font-family: "华文楷体";
+}
+.functionalAreas .above .headtext p{
+    margin-top: 10px;
+}
+.functionalAreas .functions{
+    width: 230px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.functionalAreas .middle .functions a,
+.functionalAreas .middle .functions button{
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 3px;
+}
+.functionalAreas .below {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.functionalAreas .below .leaveAMessage{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.functionalAreas .below .smallFeature button{
+    border: none;
+    background-color:transparent;
+    border-style:none;
+    cursor: pointer;
+}
+.functionalAreas .below .smallFeature{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.functionalAreas .below .forRecord{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
+.functionalAreas .below .forRecord a{
+    font-size: 0.6em;
+    font-family: "华文楷体";
+}
+.functionalAreas .below .leaveAMessage .person{
+    width: 320px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+.functionalAreas .below .leaveAMessage .person img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.functionalAreas .below .leaveAMessage .person span{
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: "华文楷体";
+}
+.functionalAreas .below .leaveAMessage .person p{
+    font-size: 13px;
+    margin-left: 10px;
+    font-family: "华文楷体";
+}
+.functionalAreas .toIntroduceMyself{
+    width: 336px;
+    height: 50px;
+}
+.functionalAreas .toIntroduceMyself p{
+    font-family: "华文楷体";
+    display: inline-block;
+}
+.pageTransitions{
+    width: 10%;
+    height: 50px;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px 0.5px ;
+    float: right;
+    position: relative;
+    right: 10%;
+}
+.pageTransitions button{
+    width: 100%;
+    border: none;
+    height: 100%;
+    background-color: white;
+}
+
+.contentArea {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: black;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    transition: 2s all;
+}
+.contentArea .content {
+    width: 930px;
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+}
+.contentArea .content .left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contentArea .content .right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contentArea .content .right .title{
+    width: 315px;
+    height: 30px;
+    color: black;
+}
+.contentArea .content .text{
+    width: 400px;
+    height: 80px;
+    margin-top: 20px;
+    font-family: "华文宋体";
+    line-height: 23px;
+}
+h2{
+    display: inline;
+}
+.contentArea .content .left .image{
+    width: 340px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5%;
+}
+.contentArea .content .image img{
+    width: 100%;
+    height: 100%;
+}
+.contentArea .content .right .timesAndRead {
+    width: 400px;
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.contentArea .content .right .timesAndRead .times{
+    width: 220px;
+    height: 20px;
+    color: gray;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.commentsArea{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+.contentArea .pagination {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.contentArea .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+.title h1,
+.title h2{
+    font-family: "华文楷体";
+}
+.commentsArea .title {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.commentsArea .userComments{
+    width:700px;
+    height: 390px;
+    box-shadow: 1px 1px 20px 2px;
+    background-color: #fff;
+    position: relative;
+    top: 20px;
+    left: 15%;
+}
+.commentsArea .userComments .avatars{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+.commentsArea .userComments .avatars img{
+    width: 80px;
+    height: 80px;
+}
+.commentsArea .userComments .name{
+    width: 200px;
+    height: 30px;
+    border-bottom: 1px solid black;
+    position: relative;
+    left: 170px;
+    bottom: 20px;
+    display: inline-block;
+    
+}
+.commentsArea .userComments .name input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    color: gray;
+    font-size: 1.2em;
+}
+.commentsArea .userComments .textArea{
+    width: 600px;
+    height: 120px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+.commentsArea .userComments .textArea textarea{
+    width: 600px;
+    height: 120px;
+    font-size: 1.5em;
+    color: gray;
+    resize: none;
+    border: none;
+}
+.commentsArea .userComments .EmailAdress{
+    width: 200px;
+    height: 30px;
+    position: relative;
+    border-bottom: 1px solid;
+    left: 220px;
+    bottom: 20px;
+    display: inline-block;
+}
+.commentsArea .userComments .EmailAdress input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    color: gray;
+    font-size: 1.2em;
+}
+.commentsArea .userComments .warning{
+    width: 500px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+.commentsArea .userComments .warning p{
+    display: inline-block;
+    font-size: 15px;
+}
+.commentsArea .userComments .btn{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 550px;
+    bottom: 72px;
+}
+.commentsArea .userComments .btn button{
+    width: 100px;
+    height: 102px;
+}
+.timeTree{
+    width: 800px;
+    height: 100vh;
+    background-color: gray;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.timeTree .box1{
+    width: 780px;
+    height: 100vh;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+
+    position: relative;
+    left: 20px;
+}
+.timeTree .box1 .Zhi{
+    width: 30%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.timeTree .box1 .Zhi .X{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    position: relative;
+    top: -10px;
+    left: -102px;
+}
+.timeTree .box1 .Zhi a{
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+}
+
+/* blog1.html */
+
+.pages{
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    padding: 0px 30px;
+}
+.pages .title {
+    width: 100%;
+    height: 100px;
+    font-size: 3em;
+    font-weight: 400;
+}
+.pages .images {
+    width: 100%;
+    height: 1700px;
+}
+.pages .images img{
+    width: 100%;
+    height: 100%;
+}
+.pages .text {
+    width: 100%;
+    height: 200px;
+    font-size: 2em;
+    font-weight: 100;
+}
+@media only screen and (max-width: 500px ){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .functionalAreas{
+        width: 100%;
+        height: 200px;
+        justify-content: space-evenly;
+    }
+    .functionalAreas .above{
+        width: 300px;
+        height: 100px;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .functionalAreas .above .headPortrait{
+        width: 100px;
+        height: 100px;
+    }
+    .functionalAreas .above .headtext{
+        text-align: start;
+    }
+    .functionalAreas .above .headPortrait img{
+        width: 100px;
+        height: 100px;
+    }
+    .functionalAreas .above .headtext p{
+        font-size: 1em;
+    }
+    .functionalAreas .middle {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .functionalAreas .toIntroduceMyself{
+        display: none;
+    }
+    .functionalAreas .below{
+        display: none;
+    }
+    .contentArea{
+        width: 100%;
+        height: 100%;
+        overflow: visible;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contentArea .content{
+        width: 380px;
+        height: 320px;
+        position: static;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        flex-flow: column-reverse;
+        margin: 20px 0;
+    }
+    .contentArea .content .left {
+        width: 100%;
+        height: 50%;
+    }
+    .contentArea .content .right{
+        width: 100%;
+        height: 50%;
+    }
+    .contentArea .content .right .title{
+        width: 300px;
+        height: 50px;
+        font-size: 0.9em;
+        padding-left: 30px;
+
+    }
+    .contentArea .content .left .image{
+        width: 86%;
+        height: 100%;
+    }
+    .contentArea .content .image:hover{
+        box-shadow:none;
+        transition:none;
+    }
+    .contentArea .content .image img{
+        width: 100%;
+        height: 100%;
+    }
+    .contentArea .content .text{
+        width:86%;
+        height: 100px;
+        line-height: 17px;
+        padding-left: 30px;
+        font-size: 0.9em;
+    }
+    .contentArea .content .right .timesAndRead .times{
+        width: 180px;
+        height: 20px;
+        font-size: 0.6em;
+    }
+    .contentArea .content .right .timesAndRead {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 0px;
+        justify-content: space-around
+    }
+    .contentArea .content .right .timesAndRead .read{
+        width: 57px;
+        height: 18px;
+        font-size: 0.6em;
+    }
+    .contentArea .pageTransitions{
+        height: 40px;
+        position: relative;
+        bottom: 20px;
+
+    }
+    .commentsArea{
+        width: 100%;
+        height: 100vh;
+    }
+    .commentsArea .title{
+        width: 200px;
+        height: 50px;
+
+    }
+    .commentsArea .userComments{
+        width: 80%;
+        height: 35%;
+        border: 1px solid black;
+        position: relative;
+        left: 10%;
+        top: 10%;
+    }
+    .commentsArea .userComments .avatars{
+        width: 13%;
+        height: 15%;
+        border: 1px solid black;
+        position: relative;
+        left: 5%;
+    }
+    .commentsArea .userComments .avatars img{
+        width: 100%;
+        height: 100%;
+    }
+    .commentsArea .userComments .name{
+        width: 30%;
+        height:8%;
+        border-bottom: 1px solid black;
+        position: relative;
+        top: 1%;
+        left: 20%;
+    }
+    .commentsArea .userComments .name input{
+        width: 100%;
+        height: 90%;
+        font-size: 0.7em;
+    }
+    .commentsArea .userComments .EmailAdress{
+        width: 30%;
+        height: 8%;
+        border-bottom: 1px solid black;
+        position: relative;
+        top: 1%;
+        left: 30%;
+    }
+    .commentsArea .userComments .EmailAdress input{
+        width: 100%;
+        height: 90%;
+        font-size: 0.6em;
+    }
+    .commentsArea .userComments .textArea{
+        width: 87%;
+        height: 32%;
+        position: relative;
+        left: 20px;
+    }
+    .commentsArea .userComments .textArea textarea{
+        width: 100%;
+        height: 100%;
+        font-size: 0.6em;
+    }
+    .commentsArea .userComments .warning{
+        width: 70%;
+        height: 30%;
+        position: relative;
+        left: 5%;
+    }
+    .commentsArea .userComments .warning p{
+        display: inline-block;
+        font-size: 0.6em;
+    }
+    .commentsArea .userComments .btn{
+        width: 20%;
+        height: 30%;
+        position: relative;
+        left: 75%;
+        bottom: 21%;
+    }
+    .commentsArea .userComments .btn button{
+        width: 100%;
+        height: 100%;
+    }
+    .commentsArea .title{
+        width: 60%;
+        position: relative;
+        left: 20%;
+    }
+    .commentsArea .timeTree{
+        position: relative;
+        top: 10%;
+        left: 5%;
+    }
+
+    .pages {
+        padding: 0px;
+        overflow: visible;
+    }
+    .pages .title{
+        width: 360px;
+        height: 50px;
+        font-size: 1.8em;
+        font-weight: 400;
+    }
+    .pages .images {
+        height: 780px;
+    }
+    .pages .txt{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .pages .text {
+        width: 360px;
+        height: 50px;
+        font-size: 1em;
+        font-weight: 100;
+    }
+    .markdown-body{
+        margin-left: 10px;
+    }
+}

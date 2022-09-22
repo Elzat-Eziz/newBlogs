@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/page1.css" />
+    <link rel="stylesheet" href="./font_h0f3ky3t23b/iconfont.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/markdown-it-texmath/css/texmath.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="file:////Users/ailizhati/.vscode/extensions/goessner.mdmath-2.7.4/themes/default/style.css"
+    />
+  </head>
+  <body>
+    <div class="functionalAreas" id="functionalAreas">
+      <div class="above">
+        <div class="headPortrait">
+          <a href="index.html"><img src="./img/headPortrait.jpg" alt="" /></a>
+        </div>
+        <div class="headtext">
+          <p>艾力扎提的博客</p>
+          <p>Zati's Blog</p>
+        </div>
+      </div>
+      <div class="middle">
+        <div class="functions">
+          <a
+            href="page1_index.html"
+            class="iconfont icon-home"
+            title="首页"
+          ></a>
+          <a
+            href="comments.html"
+            class="iconfont icon-message"
+            title="留言"
+          ></a>
+          <button
+            id="btn"
+            class="iconfont icon-brightness"
+            onclick="fun()"
+          ></button>
+          <a href="timeTree.html" class="iconfont icon-tree" title="时间树"></a>
+        </div>
+      </div>
+      <div class="toIntroduceMyself">
+        <p>活着就是为了改变世界，难道还有其他原因吗？</p>
+        <br />
+        <p style="position: relative; left: 250px">——乔布斯</p>
+      </div>
+      <div class="below">
+        <div class="leaveAMessage">
+          <div class="person">
+            <img src="./img/userHeadPortrait.jpeg" alt="" />
+            <span>Zati</span>
+            <p style="display: inline-block">此功能还未开放</p>
+          </div>
+          <div class="person">
+            <img src="./img/userHeadPortrait.jpeg" alt="" />
+            <span>Zati</span>
+            <p style="display: inline-block">此功能还未开放</p>
+          </div>
+          <div class="person">
+            <img src="./img/userHeadPortrait.jpeg" alt="" />
+            <span>Zati</span>
+            <p style="display: inline-block">此功能还未开放</p>
+          </div>
+          <div class="person">
+            <img src="./img/userHeadPortrait.jpeg" alt="" />
+            <span>Zati</span>
+            <p style="display: inline-block">此功能还未开放</p>
+          </div>
+          <div class="person">
+            <img src="./img/userHeadPortrait.jpeg" alt="" />
+            <span>Zati</span>
+            <p style="display: inline-block">此功能还未开放</p>
+          </div>
+        </div>
+        <div class="smallFeature">
+          <button class="iconfont icon-checkmore">查看更多</button>
+          <button class="iconfont icon-edit">写新留言</button>
+        </div>
+        <div class="forRecord">
+          <a href="#">&copy;Zati's Blog 2022</a><br />
+          <a href="#">备案号</a>
+        </div>
+      </div>
+    </div>
+    <div class="pages">
+        <div class="txt">
+          <div class="title">计算机网络第一章《概述》</div>
+          <div class="text">
+            注意：思维导图是提供整个笔记的逻辑结构，只要逻辑结构看明白了，那么纯概念也会学清楚
+          </div>
+        </div>
+        <div class="images">
+            <img src="./img/blog1Img/21.png" alt="">
+        </div>
+      <div class="markdown-body">
+        <h1 dir="auto" id="%E6%A6%82%E8%BF%B0">概述</h1>
+        <blockquote dir="auto">
+          <ol dir="auto">
+            <li dir="auto">因特网概述</li>
+            <li dir="auto">三种交换</li>
+            <li dir="auto">计算机网络的定义和分类</li>
+          </ol>
+        </blockquote>
+        <hr dir="auto" />
+        <h2 dir="auto" id="1%E5%9B%A0%E7%89%B9%E7%BD%91%E6%A6%82%E8%BF%B0">
+          1.因特网概述
+        </h2>
+        <blockquote dir="auto">
+          <p dir="auto">网络、互联网（互连网）和因特网</p>
+          <p dir="auto">因特网发展的三个阶段</p>
+          <p dir="auto">因特网的标准化工作</p>
+          <p dir="auto">因特网的组成</p>
+        </blockquote>
+        <h3
+          dir="auto"
+          id="1%E7%BD%91%E7%BB%9Cnetwork%E4%BA%92%E8%81%94%E7%BD%91%E4%BA%92%E8%BF%9E%E7%BD%91internet%E5%92%8C%E5%9B%A0%E7%89%B9%E7%BD%91internet"
+        >
+          1.网络（network）、互联网（互连网）（internet）和因特网（Internet）
+        </h3>
+        <ul dir="auto">
+          <li dir="auto">网络由若干节点和连接这些结点的链路组成</li>
+          <li dir="auto">
+            多个网络还可以通过路由器互连起来，这样就构成了一个覆盖更大的网络，即互联网，因此，互联网是“网络的网络”
+          </li>
+          <li dir="auto">因特网是世界上最大的互连网络</li>
+        </ul>
+        <blockquote dir="auto">
+          <p dir="auto">设备通过链路跟节点连接形成：网络。</p>
+          <p dir="auto">通过路由器在把网络中的节点连接起来构成：互联网</p>
+          <p dir="auto">因特网相当于所有互联网的集合形成一个最大的互连网络</p>
+        </blockquote>
+        <h4
+          dir="auto"
+          id="internet%E5%92%8Cinternet%E7%9A%84%E5%8C%BA%E5%88%AB"
+        >
+          internet和Internet的区别
+        </h4>
+        <p dir="auto">
+          <img src="./img/blog1Img/1.png" alt="">
+        </p>
+        <h3
+          dir="auto"
+          id="2%E5%9B%A0%E7%89%B9%E7%BD%91%E5%8F%91%E5%B1%95%E7%9A%84%E4%B8%89%E4%B8%AA%E9%98%B6%E6%AE%B5"
+        >
+          2.因特网发展的三个阶段
+        </h3>
+        <ul dir="auto">
+          <li dir="auto">从单个网络ARPANET向互联网发展 --- 1969- 1983</li>
+          <li dir="auto">逐步建成三级结构的因特网 --- 1985 - 1991</li>
+          <li dir="auto">逐步形成了多层次ISP结构的因特网 --- 1993 - 1995</li>
+        </ul>
+        <h5
+          dir="auto"
+          id="%E5%9B%A0%E7%89%B9%E7%BD%91%E6%9C%8D%E5%8A%A1%E6%8F%90%E4%BE%9B%E8%80%85internet-service-provifer-----isp"
+        >
+          因特网服务提供者（Internet Service Provifer --- ISP）
+        </h5>
+        <ul dir="auto">
+          <li dir="auto">ISP是给普通用户提供接入因特网的提供者</li>
+          <li dir="auto">中国三大ISP ： 中国移动，中国电信，中国联通</li>
+        </ul>
+        <h5
+          dir="auto"
+          id="%E5%9F%BA%E4%BA%8Eisp%E7%9A%84%E4%B8%89%E5%B1%82%E7%BB%93%E6%9E%84%E7%9A%84%E5%9B%A0%E7%89%B9%E7%BD%91"
+        >
+          基于ISP的三层结构的因特网#
+        </h5>
+        <ul dir="auto">
+          <li dir="auto">
+            第一层ISP
+            <ul dir="auto">
+              <li dir="auto">
+                第一层ISP也称为因特网的主干网，一般能覆盖国际性区域范围
+              </li>
+              <li dir="auto">拥有高速链路和交换设备</li>
+              <li dir="auto">第一层ISP之间直接互联</li>
+            </ul>
+          </li>
+          <li dir="auto">
+            第二层ISP
+            <ul dir="auto">
+              <li dir="auto">第二层ISP和一些大公司是第一层ISP的用户</li>
+              <li dir="auto">
+                通常具有区域性或国家性覆盖规模，与少数第一层ISP相连接
+              </li>
+            </ul>
+          </li>
+          <li dir="auto">
+            第三层ISP
+            <ul dir="auto">
+              <li dir="auto">第三层ISP又称为本地ISP</li>
+              <li dir="auto">是第二层ISP的用户，值拥有本地范围的网络</li>
+              <li dir="auto">校园网，企业网，家用网等都是本地ISP的用户</li>
+            </ul>
+          </li>
+        </ul>
+        <blockquote dir="auto">
+          <p dir="auto">
+            如果某个用户可以接入因特网，那么用户也可以成为ISP，需要做的就是买调制解调器和路由器，跟其他用户互联
+          </p>
+        </blockquote>
+        <p dir="auto">
+          <img src="./img/blog1Img/2.png" alt="">
+        </p>
+        <hr dir="auto" />
+        <h3
+          dir="auto"
+          id="3%E5%9B%A0%E7%89%B9%E7%BD%91%E7%9A%84%E6%A0%87%E5%87%86%E5%8C%96%E5%B7%A5%E4%BD%9C"
+        >
+          3.因特网的标准化工作
+        </h3>
+        <ul dir="auto">
+          <li dir="auto">
+            因特网的标准化工作对因特网的发展起到了非常重要的作用
+          </li>
+          <li dir="auto">
+            因特网在制定其标准上的一个很大的特点是面向公众
+            <ul dir="auto">
+              <li dir="auto">因特网所有RFC技术文档都可以在因特网下载</li>
+              <li dir="auto">
+                任何人都可以通过电子邮件发表对某个文档的意见或建议
+              </li>
+            </ul>
+          </li>
+          <li dir="auto">
+            因特网协会ISOC是一个国际性组织，它负责对因特网进行全面管理，以及在世界范围内促进其发展和使用
+            <ul dir="auto">
+              <li dir="auto">
+                因特网体系结构委员会IAB，负责管理因特网有关协议的开发
+              </li>
+              <li dir="auto">
+                因特网工程部IETF，负责研究中短期工程问题，主要针对协议的开发和标准
+              </li>
+              <li dir="auto">
+                因特网研究部IRTF，从事理论方面的研究和开发一些需要长期考虑的问题
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <h5
+          dir="auto"
+          id="%E5%88%B6%E5%AE%9A%E5%9B%A0%E7%89%B9%E7%BD%91%E7%9A%84%E6%AD%A3%E6%98%AF%E6%A0%87%E5%87%86%E8%A6%81%E7%BB%8F%E8%BF%87%E7%9A%844%E4%B8%AA%E9%98%B6%E6%AE%B5"
+        >
+          制定因特网的正是标准要经过的4个阶段
+        </h5>
+        <p dir="auto">（1）因特网草案</p>
+        <p dir="auto">（2）建议标准（从这个阶段开始成为RFC文档）</p>
+        <p dir="auto">（3）草案标准</p>
+        <p dir="auto">（4）因特网标准</p>
+        <h3
+          dir="auto"
+          id="4%E5%9B%A0%E7%89%B9%E7%BD%91%E7%9A%84%E7%BB%84%E6%88%90"
+        >
+          4.因特网的组成
+        </h3>
+        <p dir="auto">1.边缘部分</p>
+        <ul dir="auto">
+          <li dir="auto">
+            <p dir="auto">
+              由所有链接在因特网上的<strong>主机</strong>组成。这部分是<strong>用户直接使用</strong>的，用来进行<strong>通信</strong>（传送音频，视频，数据）和<strong
+                >资源共享</strong
+              >
+            </p>
+            <blockquote dir="auto">
+              <p dir="auto">
+                这里的主机指的是：手机、电脑、智能手表、平板等等用户直接使用的电子产品
+              </p>
+            </blockquote>
+          </li>
+        </ul>
+        <p dir="auto">2.核心部分</p>
+        <ul dir="auto">
+          <li dir="auto">
+            由<strong>大量网络</strong>和连接这些网络的<strong>路由器</strong>组成。这部分是<strong>为边缘部分提供服务</strong>（提供联通性和分组交换）的
+          </li>
+        </ul>
+        <blockquote dir="auto">
+          <p dir="auto">
+            这里的核心部分就是，给上面的边缘部提供网络服务，让用户
+          </p>
+          <p dir="auto">
+            在核心部分起特殊作用的是路由器，是一种专用计算机，，不是上述所说的主机，路由器任务是转发收到的分组
+          </p>
+          <p dir="auto">分组转发是网络核心部分最重要的功能</p>
+        </blockquote>
+        <hr dir="auto" />
+        <h2 dir="auto" id="2%E4%B8%89%E7%A7%8D%E4%BA%A4%E6%8D%A2">
+          2.三种交换
+        </h2>
+        <blockquote dir="auto">
+          <p dir="auto">电路交换</p>
+          <p dir="auto">分组交换</p>
+          <p dir="auto">报文交换</p>
+        </blockquote>
+        <h3 dir="auto" id="1%E7%94%B5%E8%B7%AF%E4%BA%A4%E6%8D%A2">
+          1.电路交换
+        </h3>
+        <p dir="auto">电路交换实现了人们能够用手机或者座机打电话相互通讯</p>
+        <ul dir="auto">
+          <li dir="auto">电话交换机接通电话线的方式称为电路交换</li>
+          <li dir="auto">
+            从通信资源的分配角度来看，交换就是按照某种方式动态的分配传输线路的资源；
+          </li>
+          <li dir="auto">
+            电路交换的三个步骤：
+            <ul dir="auto">
+              <li dir="auto">建立连接（分配通信资源）</li>
+              <li dir="auto">通话（一直占用通信资源）</li>
+              <li dir="auto">释放连接（归还通信资源）</li>
+              <li dir="auto">
+                <img src="./img/blog1Img/3.png" alt="">
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <p dir="auto">优点</p>
+        <ul dir="auto">
+          <li dir="auto">
+            第一，通信时延小。这是因为通讯线路为通信双方用户专用数据直达，因此通信时延很小，当连续传输大量数据时，这一优点非常明显。
+          </li>
+          <li dir="auto">
+            第二，有序传输。这是因为通讯双方之间只有一条专用的通信线路，数据只在这一条线路上传送，因此不存在失序问题。
+          </li>
+          <li dir="auto">
+            第三，没有冲突。不同的通信双方拥有不同的信道不会出现征用物理信道问题。
+          </li>
+          <li dir="auto">
+            第四，适用范围广。电路交换机适用于传输模拟信号，也适用于传输数字信号。
+          </li>
+          <li dir="auto">第五，实用性强。这主要得益于其通信时延小的优点。</li>
+          <li dir="auto">
+            第六，控制简单。电路交换的结点交换机及其控制都比较简单。
+          </li>
+        </ul>
+        <p dir="auto">缺点：</p>
+        <ul dir="auto">
+          <li dir="auto">
+            第一，建立连接时间长。电路交换的平均连接建立时间对计算机通信来说太长。
+          </li>
+          <li dir="auto">
+            第二，线路独占使用效率低。电路交换一旦建立连接物理通路就会通信双方独占，即使通信线路空闲，也不能供其他用户使用，因而信道利用率很低。
+          </li>
+          <li dir="auto">
+            第三，灵活性差。只要连接所建立的物理通路中的任何一点出现了故障，就必须重新拨号建立新的连接，这对十分紧急和重要的通讯是很不利的。
+          </li>
+          <li dir="auto">
+            第四，难以规格化。电路交换时数据直达，不同类型、不同规格、不同速率的终端很难相互进行通信，也难以在通讯过程中进行差错控制。
+          </li>
+        </ul>
+        <hr dir="auto" />
+        <h3 dir="auto" id="2%E5%88%86%E7%BB%84%E4%BA%A4%E6%8D%A2">
+          2.分组交换
+        </h3>
+        <p dir="auto">
+          因为当用电路交换来传送计算机数据时，其线路的传输效率往往很低，所以出现了分组交换
+        </p>
+        <p dir="auto">分组交换特点</p>
+        <ul dir="auto">
+          <li dir="auto">分组交换是<strong>存储转发</strong>技术</li>
+        </ul>
+        <p dir="auto">发送方式：</p>
+        <ul dir="auto">
+          <li dir="auto">
+            <p dir="auto">发送前：</p>
+            <ul dir="auto">
+              <li dir="auto">
+                <p dir="auto">发送端先把较长的报文划分成更小的等长数据段。</p>
+              </li>
+              <li dir="auto">
+                <p dir="auto">
+                  其次给每一个分成的数据段添加首部实现分组（分组又称为“包”，而分组的首部也称为“包头”）
+                </p>
+              </li>
+              <li dir="auto">
+                <p dir="auto">
+                  发送端<strong>依次</strong>把个分组发送到接收端
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li dir="auto">
+            <p dir="auto">发送中：</p>
+            <ul dir="auto">
+              <li dir="auto">
+                各分组通过路由器的存储转发和创建和动态维护转发表等一系列操作后最终到达接收端
+              </li>
+            </ul>
+          </li>
+          <li dir="auto">
+            <p dir="auto">接受后：</p>
+            <ul dir="auto">
+              <li dir="auto">接收端接受分组后剥去头部，还原成原来的报文</li>
+            </ul>
+          </li>
+        </ul>
+        <p dir="auto">注意：</p>
+        <blockquote dir="auto">
+          <p dir="auto">1.首部中包含目的地址，源地址等重要控制信息</p>
+          <p dir="auto">
+            2.假定分组在传输过程中没有出现差错，转发时也没有被丢弃
+          </p>
+          <p dir="auto">
+            3.每一个分组在互联网中独立选择传输路径，不一定是相同路径
+          </p>
+        </blockquote>
+        <div dir="auto"></div>
+        <img
+          src="./img/blog1Img/4.png"
+          alt=""
+          style="zoom: 50%"
+        />
+        <p dir="auto">优点：</p>
+        <ul dir="auto">
+          <li dir="auto">
+            第一，无需建立连接。分组交换不需要为通信双方预先建立一条专用的通信线路，不存在建立人家的时延，用户可以随时发送分组。
+          </li>
+          <li dir="auto">
+            第二，线路利用率高。通讯双方不是固定占用一条线路，而是在不同的时间分段部分占用物理线路，因而大大提高了通信线路的利用率。
+          </li>
+          <li dir="auto">
+            第三，简化了存储管理。这是相对于报文交换而言的，因为分组的长度固定，相应的缓冲区的大小也固定，管理起来相对容易。
+          </li>
+          <li dir="auto">
+            第四，加速传输。由于分组是逐个传输的，这就使得后一个分组的存储操作，与前一个分组的转发操作可以同时进行。
+          </li>
+          <li dir="auto">
+            第五，减少出错概率和重发数据量。因为分组比报文小，因此知错概率必然减小，即便分组出错，也只需重传出错的分组，这比重传整个报文的数据量小很多，这样不仅提高了可靠性，也减少了传输时延。
+          </li>
+        </ul>
+        <p dir="auto">缺点：</p>
+        <ul dir="auto">
+          <li dir="auto">
+            第一，引起了转发时延。这是因为报文在结点交换机上要经历存储转发的过程。
+          </li>
+          <li dir="auto">
+            第二，需要传输额外的信息量。将原始报文分割成等长的数据块，每个数据块都要加上原地址、目的地址等控制信息，从而构成分组，因此使得传送的信息量增大了。
+          </li>
+          <li dir="auto">
+            第三，当分组交换采用数据报服务时，可能会出现失序、丢失、或重复分组，分组到达目的节点时，需要重新还原成原始报文，比较麻烦。若分组交换采用虚电路服务，虽然没有分组失序问题，但有呼叫建立、数据传输和虚电路释放三个过程。
+          </li>
+        </ul>
+        <hr dir="auto" />
+        <h3 dir="auto" id="3%E6%8A%A5%E6%96%87%E4%BA%A4%E6%8D%A2">
+          3.报文交换
+        </h3>
+        <p dir="auto">在早期的电报通信就采用了基于存储转发原理的报文交换。</p>
+        <p dir="auto">
+          报文交换的时间延迟较长，从几分钟到几小时不等。所以现在很少人用报文交换了。
+        </p>
+        <hr dir="auto" />
+        <h3
+          dir="auto"
+          id="%E7%94%B5%E8%B7%AF%E4%BA%A4%E6%8D%A2%E5%88%86%E7%BB%84%E4%BA%A4%E6%8D%A2%E6%8A%A5%E6%96%87%E4%BA%A4%E6%8D%A2%E7%9A%84%E5%AF%B9%E6%AF%94"
+        >
+          电路交换，分组交换，报文交换的对比
+        </h3>
+        <p dir="auto">
+          <img src="./img/blog1Img/5.png" alt="">
+        </p>
+        <p dir="auto">电路交换：</p>
+        <ul dir="auto">
+          <li dir="auto">1.通信之前要建立连接，</li>
+          <li dir="auto">
+            2.连接建立好之后，就可以使用已建立好的连接进行数据传输，
+          </li>
+          <li dir="auto">
+            3.数据传送结束后需要释放连接，归还之前建立连接所占用的资源
+          </li>
+          <li dir="auto">
+            比特流直达终点：
+            <ul dir="auto">
+              <li dir="auto">
+                就是建立连接后，中间的各节点交换机就是直通形式的，比特流可直达终点
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <p dir="auto">报文交换：</p>
+        <ul dir="auto">
+          <li dir="auto">1.可以随时发送报文，不需要事先建立连接；</li>
+          <li dir="auto">2.整个报文传送到相邻节点交换机</li>
+          <li dir="auto">
+            3.全部存储下来后进行查表转发，转发到下一个结点交换机
+          </li>
+          <li dir="auto">
+            报文-存储转发-报文：
+            <ul dir="auto">
+              <li dir="auto">整个报文在节点交换机上进行存储转发</li>
+              <li dir="auto">
+                因为不限制报文大小，节点交换机需要较大的缓存空间
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <p dir="auto">分组交换</p>
+        <ul dir="auto">
+          <li dir="auto">1.随时发送分组，不需要事先建立连接</li>
+          <li dir="auto">
+            2.构成原始报文的分组，依次在各个结点交换机上存储转发
+          </li>
+          <li dir="auto">3.各节点交换机在发送分组的同时，还缓存接受到的分组</li>
+          <li dir="auto">
+            分组-存储转发-分组：
+            <ul dir="auto">
+              <li dir="auto">分组在各节点交换机上进行存储转发</li>
+              <li dir="auto">相比报文交换，减少了转发时延</li>
+            </ul>
+          </li>
+        </ul>
+        <hr dir="auto" />
+        <h2
+          dir="auto"
+          id="3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E5%88%86%E7%B1%BB"
+        >
+          3.计算机网络的定义和分类
+        </h2>
+        <h3
+          dir="auto"
+          id="%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E5%AE%9A%E4%B9%89"
+        >
+          计算机网络的定义
+        </h3>
+        <ul dir="auto">
+          <li dir="auto">计算机网络的精确定义并未统一</li>
+          <li dir="auto">
+            计算机网络的最简单的定义是：一些<strong>互</strong>相<strong>连</strong>接的，<strong>自治</strong>的计算机的<strong
+              >集合</strong
+            >
+            <ul dir="auto">
+              <li dir="auto">
+                互连：是指计算机之间可以通过有线或无线的方式进行数据通信
+              </li>
+              <li dir="auto">
+                自治：是指独立的计算机，它由自己的硬件和软件，可以单独运行使用
+              </li>
+              <li dir="auto">集合：是指至少需要两台计算机</li>
+            </ul>
+          </li>
+        </ul>
+        <blockquote dir="auto">
+          <p dir="auto">
+            计算机网络的定义是按照不同发展阶段给出了不同的定义，这些定义也间接反映了当时网络技术发展的水平
+          </p>
+        </blockquote>
+        <h4
+          dir="auto"
+          id="%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%8E%B0%E9%98%B6%E6%AE%B5%E8%BE%83%E5%A5%BD%E7%9A%84%E5%AE%9A%E4%B9%89"
+        >
+          计算机网络现阶段较好的定义
+        </h4>
+        <p dir="auto">
+          <em
+            >计算机网络主要是由一些通用的，可编程的硬件互连而成的，而这些硬件并非专门用来实现某一特定目的（例如：传送数据或视频信号）。这些可编程的硬件能够用来传送多种不同类型的数据，并能支持广泛的日益增长的应用</em
+          >
+        </p>
+        <h3
+          dir="auto"
+          id="%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E5%88%86%E7%B1%BB"
+        >
+          计算机网络的分类
+        </h3>
+        <p dir="auto">按交换技术分类：</p>
+        <ul dir="auto">
+          <li dir="auto">电路交换网络</li>
+          <li dir="auto">报文交换网络</li>
+          <li dir="auto">分组交换网络</li>
+        </ul>
+        <p dir="auto">按网络的使用者分类：</p>
+        <ul dir="auto">
+          <li dir="auto">
+            公用网
+            <ul dir="auto">
+              <li dir="auto">
+                按规定缴纳费用的人都可以使用的网络，也可称为公众网
+              </li>
+            </ul>
+          </li>
+          <li dir="auto">
+            专用网
+            <ul dir="auto">
+              <li dir="auto">为特殊业务工作的恶需要而建造的网络</li>
+            </ul>
+          </li>
+        </ul>
+        <p dir="auto">按传输介质分类：</p>
+        <ul dir="auto">
+          <li dir="auto">有线网络</li>
+          <li dir="auto">无线网络</li>
+        </ul>
+        <p dir="auto">按网络的覆盖范围</p>
+        <ul dir="auto">
+          <li dir="auto">
+            广域网WAN
+            <ul dir="auto">
+              <li dir="auto">通常为几十到几千公里，是互联网的核心部分</li>
+            </ul>
+          </li>
+          <li dir="auto">
+            城域网MAN
+            <ul dir="auto">
+              <li dir="auto">作用范围一般是大城市，作用距离5-50公里</li>
+            </ul>
+          </li>
+          <li dir="auto">
+            局域网LAN
+            <ul dir="auto">
+              <li dir="auto">
+                局限在较小的范围 1公里作用，通常采用高速通信线路
+              </li>
+            </ul>
+          </li>
+          <li dir="auto">
+            个域网PAN
+            <ul dir="auto">
+              <li dir="auto">
+                范围很小，大约在10米左右，有时也称为无线个人局域网WPAN（类似手机热点）
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <p dir="auto">按拓扑结构分类</p>
+        <ul dir="auto">
+          <li dir="auto">
+            总线型网络
+            <ul dir="auto">
+              <li dir="auto">
+                <img src="./img/blog1Img/6.png" alt="">
+              </li>
+            </ul>
+          </li>
+          <li dir="auto">
+            星型网络
+            <ul dir="auto">
+              <li dir="auto">
+                <img src="./img/blog1Img/7.png" alt="">
+              </li>
+            </ul>
+          </li>
+          <li dir="auto">
+            环型网络
+            <ul dir="auto">
+              <li dir="auto">
+                <img src="./img/blog1Img/8.png" alt="">
+              </li>
+            </ul>
+          </li>
+          <li dir="auto">
+            网状型网络
+            <ul dir="auto">
+              <li dir="auto">
+                <img src="./img/blog1Img/9.png" alt="">
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <hr dir="auto" />
+        <h2
+          dir="auto"
+          id="4%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87%E4%B8%8E%E9%9D%9E%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87"
+        >
+          4.计算机网络的性能指标与非性能指标
+        </h2>
+        <h3 dir="auto" id="%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87">性能指标</h3>
+        <p dir="auto">从不同的方面来度量计算机网络的性能</p>
+        <blockquote dir="auto">
+          <p dir="auto">1.速率</p>
+          <p dir="auto">2.带宽</p>
+          <p dir="auto">3.吞吐量</p>
+          <p dir="auto">4.时延</p>
+          <p dir="auto">5.时延带宽积</p>
+          <p dir="auto">6.往返时间</p>
+          <p dir="auto">7.利用率</p>
+          <p dir="auto">8.丢包率</p>
+        </blockquote>
+        <h3 dir="auto" id="%E9%9D%9E%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87">
+          非性能指标
+        </h3>
+        <blockquote dir="auto">
+          <p dir="auto">费用 --- 标准化</p>
+          <p dir="auto">质量 --- 可靠性</p>
+          <p dir="auto">管理和维护 --- 可扩展性和可升级性</p>
+        </blockquote>
+        <hr dir="auto" />
+        <h3 dir="auto" id="1%E9%80%9F%E7%8E%87">1.速率</h3>
+        <p dir="auto">为了能更好的理解速率，首先要了解比特（bit）</p>
+        <ul dir="auto">
+          <li dir="auto">香农1948年提出比特</li>
+          <li dir="auto">信息的基本单位</li>
+          <li dir="auto">计算机中的数据量单位</li>
+          <li dir="auto">
+            表示一个二进制数字，因此一个比特表示二进制数字中的1或0
+          </li>
+        </ul>
+        <p dir="auto">速率</p>
+        <ul dir="auto">
+          <li dir="auto">最重要的一个性能指标</li>
+          <li dir="auto">指的是数据的传送速率，也称为数据率或比特率</li>
+          <li dir="auto">
+            单位：bit/s或kbit/s、Mbit/s、Gbit/s等 以10^3作为换算单位
+          </li>
+        </ul>
+        <h3 dir="auto" id="2%E5%B8%A6%E5%AE%BD">2.带宽</h3>
+        <ul dir="auto">
+          <li dir="auto">
+            指信号具有的频率成分范围，也可表示为信道的频带宽度（允许通过最高频率成分与最低频率成分之差）
+          </li>
+          <li dir="auto">单位是赫、千赫、兆赫、吉赫</li>
+          <li dir="auto">带宽越大，bit越多</li>
+          <li dir="auto">用来表示网络中某通道传送数据的能力</li>
+          <li dir="auto">
+            表示在单位时间内网络中的某信道所能通过的“最高数据率”
+          </li>
+          <li dir="auto">
+            例如：计算机100Mbps接入网络，指的是计算机能以100Mbps速率向信道注入bit流
+          </li>
+          <li dir="auto">
+            两种表示
+            <ul dir="auto">
+              <li dir="auto">
+                频域
+                <ul dir="auto">
+                  <li dir="auto">某个信号具有频带宽度</li>
+                  <li dir="auto">单位是赫</li>
+                  <li dir="auto">
+                    某信道允许通过的信号频带范围称为该信道的带宽
+                  </li>
+                </ul>
+              </li>
+              <li dir="auto">
+                时域
+                <ul dir="auto">
+                  <li dir="auto">
+                    网络中某通道传送数据的能力，表示在单位时间内网络中的某信道所能通过的“最高数据率”
+                  </li>
+                  <li dir="auto">单位就是数据率的单位 bit/s</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <h3 dir="auto" id="3%E5%90%9E%E5%90%90%E9%87%8F">3.吞吐量</h3>
+        <ul dir="auto">
+          <li dir="auto">
+            表示在单位时间内通过某个网络（或信道、接口）的实际数据量。也就是说吞吐量用来测量实际上到底有多少数据量能够通过网络
+          </li>
+          <li dir="auto">
+            受网络的带宽或网络的额定速率的限制
+            <ul dir="auto">
+              <li dir="auto">额定速率是绝对上限值</li>
+              <li dir="auto">可能会远小于额定速率，甚至下降到零</li>
+            </ul>
+          </li>
+          <li dir="auto">有可能会用每秒传送的字节数。</li>
+        </ul>
+        <h3 dir="auto" id="4%E6%97%B6%E5%BB%B6">4.时延</h3>
+        <ul dir="auto">
+          <li dir="auto">
+            <p dir="auto">
+              指数据（一个报文或分组，甚至比特）从网络（或链路）的一端传送到另一端所需的时间
+            </p>
+          </li>
+          <li dir="auto">
+            <p dir="auto">有时也称为延迟或迟延</p>
+          </li>
+          <li dir="auto">
+            <p dir="auto">组成：</p>
+            <ul dir="auto">
+              <li dir="auto">
+                <h5 dir="auto" id="1%E5%8F%91%E9%80%81%E6%97%B6%E5%BB%B6">
+                  1.发送时延
+                </h5>
+                <ul dir="auto">
+                  <li dir="auto">
+                    也称为传输时延。发送数据时，数据帧从结点进入到传输媒体所需要的时间
+                  </li>
+                  <li dir="auto">
+                    是主机或路由器发送数据帧所需要的时间，也就是从发送数据帧的第一个比特算起，到该帧的最后一个比特发送完毕所需的时间
+                  </li>
+                  <li dir="auto">
+                    <img src="./img/blog1Img/10.png" alt="">
+                  </li>
+                </ul>
+              </li>
+              <li dir="auto">
+                <h5 dir="auto" id="2%E4%BC%A0%E6%92%AD%E6%97%B6%E5%BB%B6">
+                  2.传播时延
+                </h5>
+                <ul dir="auto">
+                  <li dir="auto">
+                    是电磁波在信道中传播一定的距离需要花费的时间
+                  </li>
+                  <li dir="auto">
+                    信号发送速率和信号在信道上的传播速率是完全不同的概念
+                  </li>
+                  <li dir="auto">
+                    <img src="./img/blog1Img/11.png" alt="">
+                  </li>
+                  <li dir="auto">
+                    电磁波传播速率：
+                    <ul dir="auto">
+                      <li dir="auto">
+                        <img src="./img/blog1Img/12.png" alt="">
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li dir="auto">
+                <h5 dir="auto" id="3%E5%A4%84%E7%90%86%E6%97%B6%E5%BB%B6">
+                  3.处理时延
+                </h5>
+                <ul dir="auto">
+                  <li dir="auto">
+                    主机或路由器在收到分组时，为处理分组（例如分析首部，提取数据，差错检验或查找路由）所花费的时间
+                  </li>
+                </ul>
+              </li>
+              <li dir="auto">
+                <h5 dir="auto" id="4%E6%8E%92%E9%98%9F%E6%97%B6%E5%BB%B6">
+                  4.排队时延
+                </h5>
+                <ul dir="auto">
+                  <li dir="auto">
+                    分组在路由器输入输出队列中排队等待处理和转发所经历的时延
+                  </li>
+                  <li dir="auto">
+                    排队时延的长短往往取决于网络中当时的通信量。当网络的通信量很大时会发生队列溢出，使分组丢失，这相当于排队时延为无穷大
+                  </li>
+                </ul>
+              </li>
+              <li dir="auto">
+                <p dir="auto">总时延=发送时延+传播时延+处理时延+排队时延</p>
+              </li>
+              <li dir="auto">
+                <p dir="auto">一般，小时延的网络优于大时延的网络</p>
+              </li>
+              <li dir="auto">
+                <p dir="auto">
+                  某些情况下，一个低速率、小时延的网络很可能要优于一个高速率但大时延的网络
+                </p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <h3 dir="auto" id="5%E6%97%B6%E5%BB%B6%E5%B8%A6%E5%AE%BD%E7%A7%AF">
+          5.时延带宽积
+        </h3>
+        <ul dir="auto">
+          <li dir="auto">时延带宽积=传播时延 x 带宽</li>
+          <li dir="auto">链路的时延带宽积又称为比特为单位的链路长度</li>
+        </ul>
+        <h3 dir="auto" id="6%E5%BE%80%E8%BF%94%E6%97%B6%E9%97%B4rtt">
+          6.往返时间RTT
+        </h3>
+        <p dir="auto">
+          在很多情况下，因特网上的信息不仅仅单方向传输，而是双向交互；所以有时我们很需要知道双向交互一次所需的时间
+        </p>
+        <ul dir="auto">
+          <li dir="auto">
+            表示从发送方发送完数据，到发送方收到来自接收方的确认总共经历的时间
+          </li>
+        </ul>
+        <h3 dir="auto" id="7%E5%88%A9%E7%94%A8%E7%8E%87">7.利用率</h3>
+        <ul dir="auto">
+          <li dir="auto">
+            信道利用率
+            <ul dir="auto">
+              <li dir="auto">
+                用来表示某信道有百分之几的时间是被利用的（有数据通过）
+              </li>
+            </ul>
+          </li>
+          <li dir="auto">
+            网络利用率
+            <ul dir="auto">
+              <li dir="auto">全网络的信道利用率加权平均</li>
+            </ul>
+          </li>
+        </ul>
+        <p dir="auto">
+          根据排队论，当某信道的利用率增大时，改信道引起的时延也会迅速增加因此，信道利用率并非越高越好
+        </p>
+        <p dir="auto">
+          <img src="./img/blog1Img/13.png" alt="">
+        </p>
+        <p dir="auto">
+          也不能使信道利用率太低，这会使通信资源浪费，所以应该使用一些机制，可以根据情况动态调整输入到网络中的通信量，使网络利用率保持在一个合理的范围内
+        </p>
+        <h3 dir="auto" id="8%E4%B8%A2%E5%8C%85%E7%8E%87">8.丢包率</h3>
+        <ul dir="auto">
+          <li dir="auto">
+            丢包率即分组丢失率，是指在一定时间范围内，传输过程中丢失的分组数量与总分组数量的比率。
+          </li>
+          <li dir="auto">
+            丢包率具体可分为接口丢包率、结点丢包率、链路丢包率、路径丢包率、网络丢包率等。
+          </li>
+          <li dir="auto">
+            丢包率使网络运维人员非常关心的一个网络性能指标，但对于普通用户来说往往并不关心这个指标
+          </li>
+          <li dir="auto">
+            分组丢失的两种情况：
+            <ul dir="auto">
+              <li dir="auto">分组在传输过程中出现误码，被结点丢弃</li>
+              <li dir="auto">
+                分组到达一台队列已满的分组交换机时被丢弃；在通信量较大时就可能造成网络拥塞
+              </li>
+            </ul>
+          </li>
+          <li dir="auto">
+            因此，丢包率反映了网络的拥塞情况：
+            <ul dir="auto">
+              <li dir="auto">无拥塞时路径丢包率为0</li>
+              <li dir="auto">轻度拥塞时路径丢包率为1%～4%</li>
+              <li dir="auto">严重拥塞时路径丢包率为5%～15%</li>
+            </ul>
+          </li>
+        </ul>
+        <hr dir="auto" />
+        <h2
+          dir="auto"
+          id="5%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84"
+        >
+          5.计算机网络体系结构
+        </h2>
+        <blockquote dir="auto">
+          <ul dir="auto">
+            <li dir="auto">常见的计算机网络体系结构</li>
+            <li dir="auto">计算机网络体系结构分层的必要性</li>
+            <li dir="auto">计算机网络体系结构中的专业术语</li>
+          </ul>
+        </blockquote>
+        <h3
+          dir="auto"
+          id="1%E5%B8%B8%E8%A7%81%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84"
+        >
+          1.常见的计算机网络体系结构
+        </h3>
+        <h4 dir="auto" id="1osi%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84">
+          （1）OSI体系结构
+        </h4>
+        <p dir="auto">
+          使各种计算机在世界范围内互连成网的标准框架 （“开放系统互连参考模型”）
+        </p>
+        <h5
+          dir="auto"
+          id="osi%E4%B8%83%E5%B1%82%E5%8D%8F%E8%AE%AE%E4%BB%8E%E4%B8%8B%E5%BE%80%E4%B8%8A"
+        >
+          OSI七层协议（从下往上）：
+        </h5>
+        <ul dir="auto">
+          <li dir="auto">7.应用层</li>
+          <li dir="auto">6.表示层</li>
+          <li dir="auto">5.会话层</li>
+          <li dir="auto">4.运输层</li>
+          <li dir="auto">3.网络层</li>
+          <li dir="auto">2.数据链路层</li>
+          <li dir="auto">1.物理层</li>
+        </ul>
+        <p dir="auto">（<em>法律上的国际标准</em>）</p>
+        <h5 dir="auto" id="2tcpip-%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84">
+          （2）TCP/IP 体系结构
+        </h5>
+        <h5
+          dir="auto"
+          id="tcpip%E5%9B%9B%E5%B1%82%E5%8D%8F%E8%AE%AE%E4%BB%8E%E4%B8%8B%E5%BE%80%E4%B8%8A"
+        >
+          TCP/IP四层协议（从下往上）：
+        </h5>
+        <ul dir="auto">
+          <li dir="auto">4.应用层</li>
+          <li dir="auto">3.运输层</li>
+          <li dir="auto">2.网际层</li>
+          <li dir="auto">
+            <ol dir="auto">
+              <li dir="auto">网络接口层</li>
+            </ol>
+          </li>
+        </ul>
+        <p dir="auto">（事实上的国际标准）</p>
+        <h5 dir="auto" id="3osi%E5%A4%B1%E8%B4%A5%E7%9A%84%E5%8E%9F%E5%9B%A0">
+          （3）OSI失败的原因
+        </h5>
+        <ul dir="auto">
+          <li dir="auto">OSI的专家缺乏实际经验</li>
+          <li dir="auto">OSI的协议实现过分复杂，运行效率低</li>
+          <li dir="auto">OSI标准的制定周期太长</li>
+          <li dir="auto">OSI的层次划分不合理</li>
+        </ul>
+        <p dir="auto">
+          每天有用户需要接入因特网的需求，这就要求用户的主机必须是TCP/IP协议族，而用于网络互联的路由器中也需要TCP/IP协议族，只是路由器只包含网络接口层和网际层
+        </p>
+        <p dir="auto">
+            <img src="./img/blog1Img/14.png" alt="">
+        </p>
+        <blockquote dir="auto">
+          <p dir="auto">
+            为了互连全世界各种不同的网络接口，网络接口层没有规定具体的内容。
+            例如：有线的以太网接口，无线局域网的WI-FI接口。所以本质上TCP/IP体系结构只有三层
+          </p>
+          <ol dir="auto">
+            <li dir="auto">IP协议是TCP/IP协议结构网际层的核心协议</li>
+            <li dir="auto">TCP和UDP是TCP/IP体系结构运输层的两个重要协议</li>
+            <li dir="auto">
+              应用层包含了大量的应用层协议，例如：HTTP，SMTP，DNS， RTP等
+            </li>
+          </ol>
+        </blockquote>
+        <p dir="auto">分析：</p>
+        <ul dir="auto">
+          <li dir="auto">
+            IP协议可以将不同的网络接口进行互连，并向其上的TCP协议和UDP协议提供网络互连服务
+          </li>
+          <li dir="auto">
+            TCP协议享受IP协议提供的网络互连服务的基础上，向应用层的相应协议提供给可靠传输的服务
+          </li>
+          <li dir="auto">
+            UDP协议享受IP协议提供的网络互连服务的基础上，向应用层的相应协议提供给不可靠传输的服务
+          </li>
+        </ul>
+        <p dir="auto">
+          IP协议作为TCP/IP体系结构中的核心协议，一方面负责互联不同的网络接口，另一方面为各种网络应用提供服务
+        </p>
+        <h5
+          dir="auto"
+          id="4%E5%8E%9F%E7%90%86%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84"
+        >
+          （4）原理体系结构
+        </h5>
+        <p dir="auto">
+          为了更好的去学计算机网络原理知识，综合OSI体系结构和TCP/IP体系结构的优点采用的五层协议的原理体系结构，
+        </p>
+        <p dir="auto">五层协议（从下往上）：</p>
+        <ul dir="auto">
+          <li dir="auto">5.应用层</li>
+          <li dir="auto">4.运输层</li>
+          <li dir="auto">3.网络层</li>
+          <li dir="auto">2.数据链路层</li>
+          <li dir="auto">1.物理层</li>
+        </ul>
+        <p dir="auto">（<em>适用于教学</em>）</p>
+        <p dir="auto">
+          相当于把TCP/IP协议的网络接口层重新划分为物理层和数据链路层
+        </p>
+        <h3
+          dir="auto"
+          id="2%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E5%88%86%E5%B1%82%E7%9A%84%E5%BF%85%E8%A6%81%E6%80%A7"
+        >
+          2.计算机网络体系结构分层的必要性
+        </h3>
+        <blockquote dir="auto">
+          <p dir="auto">
+            因为计算机网络是个非常复杂的系统，所以早在ARPANET设计时就提出了分层的概念。
+          </p>
+          <p dir="auto">
+            这里所谓的“分层”可将庞大而又复杂的问题，转化为若干较小的局部问题，而这些较小的局部问题旧比较易于研究和处理
+          </p>
+        </blockquote>
+        <p dir="auto">
+          为了表达出分层的必要性，我们采用五层协议的原理体系结构为例
+        </p>
+        <p dir="auto">(我们从下往上，从简单到复杂，层层处理面临的问题)</p>
+        <h4 dir="auto" id="1%E7%89%A9%E7%90%86%E5%B1%82">（1）物理层</h4>
+        <h6
+          dir="auto"
+          id="%E4%BE%8B%E5%A6%82%E6%88%91%E4%BB%AC%E7%94%A8%E4%B8%A4%E5%8F%B0%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%94%A8%E4%B8%80%E6%9D%A1%E7%BD%91%E7%BA%BF%E8%BF%9E%E6%8E%A5%E8%B5%B7%E6%9D%A5"
+        >
+          例如我们用两台计算机用一条网线连接起来
+        </h6>
+        <p dir="auto">
+            <img src="./img/blog1Img/15.png" alt="">
+        </p>
+        <h6
+          dir="auto"
+          id="%E9%82%A3%E6%88%91%E4%BB%AC%E9%9C%80%E8%A6%81%E8%80%83%E8%99%91%E7%9A%84%E9%97%AE%E9%A2%98%E6%9C%89"
+        >
+          那我们需要考虑的问题有：
+        </h6>
+        <ul dir="auto">
+          <li dir="auto">采用怎样的传输媒体（介质）</li>
+          <li dir="auto">采用怎样的物理接口连接传输媒体</li>
+          <li dir="auto">使用怎样的信号表示比特0和1</li>
+        </ul>
+        <p dir="auto">把以上的问题解决了，那么两台计算机就可以传输信号了。</p>
+        <h5 dir="auto" id="%E6%B3%A8%E6%84%8F">注意：</h5>
+        <blockquote dir="auto">
+          <p dir="auto">
+            严格来说，传输媒体不属于物理层，因为它并不包含在体系结构中
+          </p>
+        </blockquote>
+        <h5
+          dir="auto"
+          id="%E9%82%A3%E4%B9%88%E6%88%91%E4%BB%AC%E6%8A%8A%E4%B8%8A%E9%9D%A2%E7%9A%84%E9%97%AE%E9%A2%98%E7%BB%9F%E4%B8%80%E5%88%92%E5%BD%92%E5%88%B0%E7%89%A9%E7%90%86%E5%B1%82%E5%8E%BB%E8%A7%A3%E5%86%B3"
+        >
+          那么我们把上面的问题统一划归到物理层去解决
+        </h5>
+        <h4 dir="auto" id="2%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82">
+          （2）数据链路层
+        </h4>
+        <h6
+          dir="auto"
+          id="%E4%BE%8B%E5%A6%82%E6%88%91%E4%BB%AC%E6%8A%8A%E5%9B%9B%E4%B8%AA%E4%B8%BB%E6%9C%BA%E9%80%9A%E8%BF%87%E6%80%BB%E7%BA%BF%E4%BA%92%E8%BF%9E%E6%9E%84%E6%88%90%E4%B8%80%E4%B8%AA%E6%80%BB%E7%BA%BF%E5%9E%8B%E7%BD%91%E7%BB%9C"
+        >
+          例如，我们把四个主机通过总线互连，构成一个总线型网络，
+        </h6>
+        <p dir="auto">
+            <img src="./img/blog1Img/16.png" alt="">
+        </p>
+        <h6
+          dir="auto"
+          id="e982a3e68891e4bbace99c80e8a681e88083e89991e79a84e997aee9a298e69c89-1"
+        >
+          那我们需要考虑的问题有：
+        </h6>
+        <p dir="auto">（假设已经解决物理层的问题，可以成功传输信号）</p>
+        <ul dir="auto">
+          <li dir="auto">
+            如何表示网络中的各主机（主机编制问题，例如MAC地址）
+          </li>
+          <li dir="auto">如何从信号所表示的一连串比特流中区分出地址和数据</li>
+          <li dir="auto">如何协调各主机争用总线</li>
+        </ul>
+        <p dir="auto">注意：</p>
+        <blockquote dir="auto">
+          <p dir="auto">
+            这里的总线型网络已经被淘汰，现在都在使用由以太网交换机将多台主机互连形成的交换式以太网
+          </p>
+        </blockquote>
+        <h5
+          dir="auto"
+          id="%E9%82%A3%E4%B9%88%E6%88%91%E4%BB%AC%E6%8A%8A%E4%B8%8A%E9%9D%A2%E7%9A%84%E9%97%AE%E9%A2%98%E7%BB%9F%E4%B8%80%E5%88%92%E5%BD%92%E5%88%B0%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82%E5%8E%BB%E8%A7%A3%E5%86%B3"
+        >
+          那么我们把上面的问题统一划归到数据链路层去解决
+        </h5>
+        <h4 dir="auto" id="3%E7%BD%91%E7%BB%9C%E5%B1%82">（3）网络层</h4>
+        <h6
+          dir="auto"
+          id="%E4%BE%8B%E5%A6%82%E6%88%91%E4%BB%AC%E6%8A%8A3%E4%B8%AA%E8%B7%AF%E7%94%B1%E5%99%A84%E4%B8%AA%E7%BD%91%E7%BB%9C%E4%BA%92%E8%BF%9E%E8%B5%B7%E6%9D%A5%E5%BD%A2%E6%88%90%E5%B0%8F%E5%9E%8B%E4%BA%92%E8%81%94%E7%BD%91"
+        >
+          例如，我们把3个路由器，4个网络互连起来形成小型互联网，
+        </h6>
+        <p dir="auto">
+            <img src="./img/blog1Img/17.png" alt="">
+        </p>
+        <h6
+          dir="auto"
+          id="e982a3e68891e4bbace99c80e8a681e88083e89991e79a84e997aee9a298e69c89-2"
+        >
+          那我们需要考虑的问题有：
+        </h6>
+        <ul dir="auto">
+          <li dir="auto">
+            如何表示各网络以及网络中的各主机（网络和主机共同编制的问题，例如IP地址）
+          </li>
+          <li dir="auto">路由器如何转发分组，如何进行路由选择</li>
+        </ul>
+        <h5
+          dir="auto"
+          id="e982a3e4b988e68891e4bbace68a8ae4b88ae99da2e79a84e997aee9a298e7bb9fe4b880e58892e5bd92e588b0e695b0e68daee993bee8b7afe5b182e58ebbe8a7a3e586b3-1"
+        >
+          那么我们把上面的问题统一划归到数据链路层去解决
+        </h5>
+        <h4 dir="auto" id="4%E8%BF%90%E8%BE%93%E5%B1%82">（4）运输层</h4>
+        <h6
+          dir="auto"
+          id="%E4%BE%8B%E5%A6%82%E5%81%87%E8%AE%BE%E4%B8%BB%E6%9C%BA%E4%B8%AD%E8%BF%90%E8%A1%8C%E7%9D%80%E4%B8%8E%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1%E7%9B%B8%E5%85%B3%E7%9A%84%E5%BA%94%E7%94%A8%E8%BF%9B%E7%A8%8B"
+        >
+          例如，假设主机中运行着与网络通信相关的应用进程
+        </h6>
+        <p dir="auto">
+            <img src="./img/blog1Img/18.png" alt="">
+        </p>
+        <h6
+          dir="auto"
+          id="e982a3e68891e4bbace99c80e8a681e88083e89991e79a84e997aee9a298e69c89-3"
+        >
+          那我们需要考虑的问题有：
+        </h6>
+        <ul dir="auto">
+          <li dir="auto">如何解决进程之间基于网络通信的问题</li>
+          <li dir="auto">出现传输错误，如何处理</li>
+        </ul>
+        <h5
+          dir="auto"
+          id="%E9%82%A3%E4%B9%88%E6%88%91%E4%BB%AC%E6%8A%8A%E4%B8%8A%E9%9D%A2%E7%9A%84%E9%97%AE%E9%A2%98%E7%BB%9F%E4%B8%80%E5%88%92%E5%BD%92%E5%88%B0%E8%BF%90%E8%BE%93%E5%B1%82%E5%8E%BB%E8%A7%A3%E5%86%B3"
+        >
+          那么我们把上面的问题统一划归到运输层去解决
+        </h5>
+        <h4 dir="auto" id="5%E5%BA%94%E7%94%A8%E5%B1%82">（5）应用层</h4>
+        <h6
+          dir="auto"
+          id="%E5%9C%A8%E8%BF%90%E8%BE%93%E5%B1%82%E7%9A%84%E5%9F%BA%E7%A1%80%E4%B8%8A%E5%88%B6%E5%AE%9A%E5%90%84%E7%A7%8D%E5%BA%94%E7%94%A8%E5%B1%82%E5%8D%8F%E8%AE%AE%E5%B9%B6%E6%8C%89%E5%8D%8F%E8%AE%AE%E6%A0%87%E5%87%86%E7%BC%96%E5%86%99%E7%9B%B8%E5%BA%94%E7%9A%84%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E9%80%9A%E8%BF%87%E5%BA%94%E7%94%A8%E8%BF%9B%E7%A8%8B%E9%97%B4%E7%9A%84%E4%BA%A4%E4%BA%92%E6%9D%A5%E5%AE%8C%E6%88%90%E7%89%B9%E5%AE%9A%E7%9A%84%E7%BD%91%E7%BB%9C%E5%BA%94%E7%94%A8"
+        >
+          在运输层的基础上，制定各种应用层协议，并按协议标准编写相应的应用程序，通过应用进程间的交互来完成特定的网络应用
+        </h6>
+        <h6
+          dir="auto"
+          id="%E9%82%A3%E4%B9%88%E6%88%91%E4%BB%AC%E6%8A%8A%E4%B8%8A%E9%9D%A2%E7%9A%84%E9%97%AE%E9%A2%98%E7%BB%9F%E4%B8%80%E5%88%92%E5%BD%92%E5%88%B0%E5%BA%94%E7%94%A8%E5%B1%82%E5%8E%BB%E8%A7%A3%E5%86%B3"
+        >
+          那么我们把上面的问题统一划归到应用层去解决
+        </h6>
+        <h3
+          dir="auto"
+          id="3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E4%B8%AD%E7%9A%84%E4%B8%93%E4%B8%9A%E6%9C%AF%E8%AF%AD"
+        >
+          3.计算机网络体系结构中的专业术语
+        </h3>
+        <h4 dir="auto" id="1%E5%AE%9E%E4%BD%93">（1）实体</h4>
+        <p dir="auto">实体</p>
+        <ul dir="auto">
+          <li dir="auto">任何可发送或接受信息的硬件或软件进程</li>
+        </ul>
+        <p dir="auto">对等实体</p>
+        <ul dir="auto">
+          <li dir="auto">收发双方相同层次中的实体</li>
+        </ul>
+        <p dir="auto">
+            <img src="./img/blog1Img/19.png" alt="">
+        </p>
+        <p dir="auto">####（2） 协议</p>
+        <p dir="auto">协议：</p>
+        <ul dir="auto">
+          <li dir="auto">控制两个对等实体进行逻辑通信的规则的集合</li>
+        </ul>
+        <p dir="auto">协议的三要素</p>
+        <ul dir="auto">
+          <li dir="auto">
+            <p dir="auto">语法</p>
+            <ul dir="auto">
+              <li dir="auto">定义通信双方所交换信息的格式</li>
+            </ul>
+          </li>
+          <li dir="auto">
+            <p dir="auto">语义</p>
+            <ul dir="auto">
+              <li dir="auto">定义双方所要完成的操作</li>
+            </ul>
+          </li>
+          <li dir="auto">
+            <p dir="auto">同步</p>
+            <ul dir="auto">
+              <li dir="auto">定义收发双方的时序关系</li>
+            </ul>
+          </li>
+        </ul>
+        <p dir="auto">注意：</p>
+        <blockquote dir="auto">
+          <p dir="auto">
+            这些逻辑通信不是真实存在，是为了方便研究体系结构某一层而假设的，所以不用考虑其他层
+          </p>
+        </blockquote>
+        <h4 dir="auto" id="3%E6%9C%8D%E5%8A%A1">（3）服务</h4>
+        <p dir="auto">服务：</p>
+        <ul dir="auto">
+          <li dir="auto">
+            是在协议的控制下，两个对等实体间的逻辑通信使得本层能够向上一层提供服务
+          </li>
+          <li dir="auto">要实现本层协议，还需要使用下面一层所提供的服务</li>
+          <li dir="auto">协议是“水平的”，服务室“垂直的”</li>
+          <li dir="auto">
+            实体看得见相邻下层所提供的服务，但并不知道实现该服务的具体协议。也就是说，下面的协议对上面的实体是“透明”的
+          </li>
+        </ul>
+        <p dir="auto">服务访问点：</p>
+        <ul dir="auto">
+          <li dir="auto">
+            在同一系统中相邻两层的实体交换信息的逻辑接口，用于区分不同的服务类型。
+            <ul dir="auto">
+              <li dir="auto">数据链路层的服务访问点为帧的“类型字段”</li>
+              <li dir="auto">网络层的服务访问点为IP数据报首部中的“协议字段”</li>
+              <li dir="auto">运输层的服务访问点为“端口号”</li>
+            </ul>
+          </li>
+          <li dir="auto">
+            服务原语
+            <ul dir="auto">
+              <li dir="auto">
+                上层使用下层所提供的服务必须通过与下层交换一些命令，这些命令称为服务原语
+              </li>
+            </ul>
+          </li>
+          <li dir="auto">
+            协议数据单元PDU
+            <ul dir="auto">
+              <li dir="auto">对等层次之间传送的数据包称为该层的协议数据单元</li>
+            </ul>
+          </li>
+          <li dir="auto">
+            服务数据单元SDU
+            <ul dir="auto">
+              <li dir="auto">
+                同一系统内，层与层之间交换的数据包称为服务数据单元
+              </li>
+            </ul>
+          </li>
+          <li dir="auto">
+            多个SDU可以合成为一个PDU；一个SDU也可以划分为几个PDU
+          </li>
+        </ul>
+        <p dir="auto">
+            <img src="./img/blog1Img/20.png">
+          
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

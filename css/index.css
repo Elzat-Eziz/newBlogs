@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+.middleArea h1{
+    font-size: 4em;
+    font-family: "华文楷体";
+    color:  #2F2F4F;
+    display: inline-block;
+}
+.leftArea{
+    width: 50%;
+    height: 100vh;
+    background-color: lightgray;
+    position: relative;
+    left: 0%;
+}
+.rightArea{
+    width: 50%;
+    height: 100vh;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+.middleArea{
+    width: 550px;
+    height: 200px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.label{
+    width: 282px;
+    height: 40px;
+}
+.label a{
+    text-decoration: none;
+    color: #2F2F4F;
+    font-family:"华文楷体" ;
+    font-size: 2.0em;
+    letter-spacing: 10px;
+    
+}
+@media only screen and (max-width: 500px ){
+    .middleArea{
+        width: 100%;
+    }
+    .middleArea h1{
+        font-size: 2.3em;
+        font-family: "华文楷体";
+        color:  #2F2F4F;
+        display: inline-block;
+    }
+    .label{
+        width: 210px;
+        height: 100px;
+    }
+    .label a{
+        font-size: 1.3em;
+    }
+    
+}
